@@ -1,0 +1,35 @@
+.custom-bg-img {
+  background-image: url(../img/wallpaper1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  filter: saturate(80%);
+  filter: brightness(100%);
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.custom-hover:hover {
+    transition: 0.5s;
+    background-color: rgba(10, 74, 192, 0.932);
+    color: #ffffff;
+}
+
+.services-bg{
+    background-image: url(../img/3d-background-with-white-cubes.jpg);
+    background-color: rgb(222, 227, 240);
+    background-position: center;
+}
+.subscribe-btn:hover {
+    color: #ffffff;
+    background-color: rgba(10, 74, 192, 0.932);
+}
+
+.review-bg:hover {
+    background-image: url(../img/3d-background-with-white-cubes.jpg);
+    background-position: left;
+    background-position-x: left;
+}
